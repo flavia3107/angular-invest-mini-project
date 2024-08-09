@@ -3,7 +3,6 @@ form {
     max-width: 30rem;
     margin: 2rem auto;
     border-radius: 4px;
-    background: linear-gradient(180deg, #307e6c, #2b996d);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -17,9 +16,10 @@ label {
     display: block;
     margin-bottom: 0.25rem;
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 0.5rem;
+    font-size: 0.55rem;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 input {
@@ -30,6 +30,10 @@ input {
     background-color: transparent;
     color: #c2e9e0;
     font-size: 1rem;
+}
+
+input:focus-visible {
+    outline: none;
 }
 
 button {
