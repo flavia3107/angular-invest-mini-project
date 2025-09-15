@@ -18,7 +18,7 @@ h1 {
     padding-left: 7px;
     display: flex;
     flex-direction: column;
-    color: #ffffff;
+    color: #232323;
     align-items: flex-start;
 }
 
@@ -33,7 +33,7 @@ h1 {
     padding: 0;
     line-height: 1;
     letter-spacing: 4px;
-    color: #fcfcfc;
+    color: #232323;
 }
 
 .logo-txt h1 {
