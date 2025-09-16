@@ -17,3 +17,10 @@ table tbody {
     font-size: 0.85rem;
     color: #c2e9e0;
 }
+
+.result-container {
+    background: #e9e9e9;
+    height: 100%;
+    margin: 2rem 2rem 2rem 0;
+    border-radius: 5px;
+}
