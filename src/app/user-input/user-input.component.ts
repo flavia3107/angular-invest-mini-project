@@ -32,4 +32,11 @@ export class UserInputComponent {
     this.enteredExpectedReturn.set('5');
     this.enteredDuration.set('10');
   }
+
+  handleLargeInput() {
+    if (+this.enteredDuration() > 100)
+      this.enteredDuration.set('100');
+    if (+this.enteredDuration() < 0)
+      this.enteredDuration.set('0');
+  }
 }
