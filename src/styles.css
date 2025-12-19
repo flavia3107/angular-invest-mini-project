@@ -26,7 +26,7 @@ app-root {
 
 .flex-row {
   display: flex;
-  height: calc(100vh - 8rem);
+  height: calc(100vh - 5rem);
 }
 
 app-investment-result {
