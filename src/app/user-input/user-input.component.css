@@ -12,8 +12,9 @@ form {
 }
 
 label {
-    font-family: serif;
-    font-size: 0.8rem;
+    font-family: "Quicksand";
+    font-size: 14px;
+    color: #fff;
 }
 
 p {
