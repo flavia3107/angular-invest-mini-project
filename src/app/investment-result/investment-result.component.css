@@ -52,4 +52,12 @@ thead {
 p {
     color: #232323;
     width: 100%;
+    padding: 1rem;
+}
+
+@media (max-width: 850px) {
+    .result-container {
+        min-width: 25rem;
+        width: fit-content;
+    }
 }
